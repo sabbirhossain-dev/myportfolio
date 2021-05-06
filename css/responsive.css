@@ -1,0 +1,70 @@
+@media (min-width:320px) and (max-width:575px) {
+
+
+    
+    .navbar-expand-lg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100% !important;
+    background: #fff;
+    }
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 13px 0;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    nav ul .bttn a{
+        margin-top: 0;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    nav ul li a:hover::after {
+        width: 100px;
+    }
+
+
+    nav ul li a::after {
+        left: 110px;
+    }
+
+    
+
+
+
+
+
+
+    #banner-part{
+        height: 500px;
+    }
+
+
+    #banner-part .overlay h2{
+        font-size: 25px;
+        margin-top: 200px;
+        margin-bottom: 35px;
+    }
+
+    #banner-part .overlay h1{
+        font-size: 36px;
+    }
+
+
+
+
+
+
+
+
+
+}
